@@ -1,21 +1,14 @@
-Planta 1:
-Foco Baño P1,Laptop1
-Foco Baño P1,Foco Cocina
-Foco Cocina,Foco Sala 1
-Foco Cocina,Foco Sala 2
-Foco Sala 1,Bocina Sala 1
-Foco Sala 2,Bocina sala 2
-Bocina Sala 1,TV Sala
-Bocina sala 2,TV Sala
-Foco Habitacion 0,Alexa
-Smartphone1,Foco Habitacion 0
-Camara garage,Foco Garage
-Planta 2:
-Smartphone2,Laptop2
-Smartphone3,Foco Balcon
-Foco Estudio,Router P2
-Foco Estudio,PC1
-Foco Estudio,Router P1
-TV H2,Foco Habitacion 2
-TV H3,Foco Habitacion 1
-Camara Balcon,Foco Bodega
+RouterP1: CamaraGarage FocoSala2 Alexa Laptop1 Smartphone1
+CamaraGarage: RouterP1
+FocoSala2: RouterP1 FocoCocina
+Alexa: FocoH0 RouterP1
+Laptop1: TV RouterP1
+Smartphone1: FocoH0 RouterP1
+FocoCocina: FocoSala1 FocoSala2 FocoBP1
+FocoH0: Alexa Smartphone1 FocoGarage
+TV: Bocina1 Bocina2 Laptop1
+FocoSala1: FocoCocina FocoBP1
+FocoBP1:FocoCocina FocoSala1
+FocoGarage: FocoH0
+Bocina1: TV
+Bocina2: TV
