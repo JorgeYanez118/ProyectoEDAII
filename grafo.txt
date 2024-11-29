@@ -1,0 +1,21 @@
+Planta 1:
+Foco Baño P1,Laptop1
+Foco Baño P1,Foco Cocina
+Foco Cocina,Foco Sala 1
+Foco Cocina,Foco Sala 2
+Foco Sala 1,Bocina Sala 1
+Foco Sala 2,Bocina sala 2
+Bocina Sala 1,TV Sala
+Bocina sala 2,TV Sala
+Foco Habitacion 0,Alexa
+Smartphone1,Foco Habitacion 0
+Camara garage,Foco Garage
+Planta 2:
+Smartphone2,Laptop2
+Smartphone3,Foco Balcon
+Foco Estudio,Router P2
+Foco Estudio,PC1
+Foco Estudio,Router P1
+TV H2,Foco Habitacion 2
+TV H3,Foco Habitacion 1
+Camara Balcon,Foco Bodega
